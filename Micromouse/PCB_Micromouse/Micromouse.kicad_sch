@@ -8181,6 +8181,17 @@
 		)
 		(uuid "408d9e07-be12-4e17-810d-d7d3b53dd2f7")
 	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 309.626 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "489daafc-308e-4488-9022-8c39d98fc4b1")
+	)
 	(text "Leds y botones de selección\n"
 		(exclude_from_sim no)
 		(at 355.092 246.38 0)
@@ -8221,7 +8232,7 @@
 		)
 		(uuid "54dcbf80-0b67-4ad8-ab03-569cf7a5fa50")
 	)
-	(text "Fe de erratas:\n\n1. Puentear +3V3 con +3V3(ST-LINK)\n2. Puentear el pin 2 del inductor con +5V\n3. Usar un inductor de 3.3uH\n4. Añadir capacitor de 10uF entre IN y GND\n5. Modificar físicamente la PCB para que el\n   pin 2 del switch sólo esté conectado a\n   GND y viceversa"
+	(text "Fe de erratas:\n\n1. Puentear +3V3 con +3V3(ST-LINK)\n2. Puentear el terminal 2 del inductor con +5V\n3. Usar un inductor de 3.3uH\n4. Añadir capacitor de 10uF entre IN y GND\n5. Modificar físicamente la PCB para que el\n   terminal 2 del switch sólo esté conectado a\n   GND y viceversa"
 		(exclude_from_sim no)
 		(at 431.8 22.352 0)
 		(effects
